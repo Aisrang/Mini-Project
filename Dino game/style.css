@@ -1,0 +1,43 @@
+body {
+  background-image: url('dino_2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo{
+    display: inline-flex;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: center;
+    font-weight: bold;
+    width: 220px;
+    height: 100px;
+    color: grey;
+    margin-top:20px;
+    padding-left:10px;
+}
+
+.nav-right{
+  display: flex;
+  gap:50px;
+  float:right;
+  margin-top: 20px;
+  padding-right:10px;
+}
+
+.right{
+  text-decoration: none;
+  color:grey;
+  transition: color 0.18s,underline 0.18s;
+  font-size:25px;
+  font-weight: bold;
+}
+
+.right:hover{
+  text-decoration: underline;
+  color:rgb(147, 140, 140);
+}
+
+.right:active{
+  color: rgb(177, 172, 172);
+}
