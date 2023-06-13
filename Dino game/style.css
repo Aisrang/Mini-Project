@@ -43,3 +43,13 @@ body {
 .right:active {
   color: rgb(177, 172, 172);
 }
+
+.desc{
+  display: inline-block;
+  font-family: Inter;
+  color:rgb(99, 96, 96);
+  width:50%;
+  text-align: left;
+  font-size: 1vw;
+}
+
